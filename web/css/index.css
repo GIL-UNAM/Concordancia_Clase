@@ -1,0 +1,92 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 29/10/2015, 01:29:06 PM
+    Author     : JSolorzanoS
+*/
+body{
+    padding: 10px 20px 10px 20px;
+}
+
+th.izq, td.izq{
+    text-align: right
+}
+th.kwic, td.kwic{
+    text-align: center;
+    font-weight: bolder
+}
+
+.loading{
+    height: 100px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-image: url(../images/loading.GIF)
+}
+
+.header{
+    padding: 15px 15px 15px 15px
+}
+
+.title{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 32pt;
+    margin-left: 15px
+}
+
+.subtitle{
+    font-family: 'Lato', sans-serif;
+    font-size: 12pt;
+    position:relative;
+    top:-15px;
+    margin-left: 15px
+}
+
+.user-band{
+    margin-right: 15px
+}
+
+.corpus-select{
+    width: 100%
+}
+
+.filter-box{
+    float:left;
+    width: 200px;
+    border: solid silver 1px;
+    padding: 5px 5px 5px 5px;
+    margin-right: 5px;
+}
+
+.filter-box input{
+    width: 80%;
+}
+
+.elegir-metadatos{
+    border: solid silver 1px;
+    padding: 5px 5px 5px 5px;
+    margin-right: 5px;
+}
+
+.filter-field select{
+    width: 160px;
+}
+
+a.blue{
+    color:#337ab7
+}
+
+#graficas .chart{
+    height:200px;
+}
+
+.pos.pos-N{background-color:Turquoise}
+.pos.pos-S{background-color:yellow}
+.pos.pos-D{background-color:pink}
+.pos.pos-A{background-color:orange}
+.pos.pos-V{background-color:Chartreuse}
+.pos.pos-P{background-color:plum}
+.pos.pos-R{background-color:lightsalmon}
+.pos.pos-C{background-color:lightblue}
